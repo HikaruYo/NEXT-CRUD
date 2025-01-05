@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "id": "2",
+      "title": "Pulpen",
+      "price": 3000
+    },
+    {
+      "id": "4",
+      "title": "Longsword",
+      "price": 2000000
+    },
+    {
+      "id": "440b",
+      "title": "Mama",
+      "price": "696969"
+    }
+  ]
+}
