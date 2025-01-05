@@ -1,6 +1,11 @@
 import AddProduct from './addProduct'
 import DeleteProduct from './deleteProduct'
 import UpdateProduct from './updateProduct'
+import type {Metadata} from "next";
+
+export const metadata: Metadata = {
+  title: 'Products',
+}
 
 type Product = {
   id: number;
