@@ -1,8 +1,8 @@
 'use client'
 
-import {useFormState} from "react-dom"
+// import {useFormState} from "react-dom"
 import {useActionState} from "react";
-import {login} from "@/app/login/action";
+import {login} from "@/app/(auth)/login/action";
 
 export function LoginForm() {
   const [state, loginAction] = useActionState(login, undefined);
@@ -25,17 +25,17 @@ export function LoginForm() {
           placeholder="Price"
         />
       </div>
-      <SubmitButton />
+      {/*<SubmitButton />*/}
     </form>
   )
 }
 
-function SubmitButton() {
-  const { pending } = useFormState()
-
-  return (
-    <button disabled={ pending } type="submit">
-      Login
-    </button>
-  )
-}
+// function SubmitButton() {
+//   const { pending } = useFormState()
+//
+//   return (
+//     <button disabled={ pending } type="submit">
+//       Login
+//     </button>
+//   )
+// }
